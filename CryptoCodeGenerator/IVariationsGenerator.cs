@@ -1,9 +1,8 @@
 ﻿using System.Collections.Generic;
 
-namespace CryptoCodeGenerator
+namespace CryptoCodeGenerator;
+
+public interface IVariationsGenerator
 {
-    public interface IVariationsGenerator
-    {
-        IEnumerable<string> GenerateVariations(char[] alphabet, int length);
-    }
+    IEnumerable<string> GenerateVariations(char[] alphabet, int length);
 }

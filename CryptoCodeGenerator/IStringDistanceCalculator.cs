@@ -1,7 +1,6 @@
-﻿namespace CryptoCodeGenerator
+﻿namespace CryptoCodeGenerator;
+
+public interface IStringDistanceCalculator
 {
-    public interface IStringDistanceCalculator
-    {
-        int GetDistance(string x, string y);
-    }
+    int GetDistance(string x, string y);
 }

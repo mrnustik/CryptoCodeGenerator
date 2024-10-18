@@ -8,5 +8,9 @@
   <ItemGroup>
     <PackageReference Include="Combinatorics" Version="1.1.0.19" />
   </ItemGroup>
+  
+  <ItemGroup>
+    <InternalsVisibleTo Include="CryptoCodeGenerator.Tests"/>
+  </ItemGroup>
 
 </Project>
